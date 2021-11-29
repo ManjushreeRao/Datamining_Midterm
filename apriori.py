@@ -1,11 +1,6 @@
 from csv import reader
 
 def load_data_set():
-    """
-    Load a sample data set
-    Returns:
-        A data set: A list of transactions. Each transaction contains several items.
-    """
     print("Hello, Please enter which data set you need \n 1) Press 1 for Amazon \n 2) Press 2 for BestBuy \n "
           "3) Press 3 for Nike \n 4) Press 4 for KMart")
     while True:
