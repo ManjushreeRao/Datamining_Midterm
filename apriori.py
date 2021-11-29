@@ -140,6 +140,6 @@ if __name__ == "__main__":
         for freq_set in Lk:
             print(freq_set, support_data[freq_set])
     print
-    print("Big Rules")
+    print("The_Big_Rules")
     for item in big_rules_list:
         print(item[0], "=>", item[1], "conf: ", item[2])
